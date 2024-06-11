@@ -21,50 +21,37 @@
     <title>MOVIES</title>
 </head>
 <body>
-    <header class="">
-        <nav class="desktop-navigation d-none d-md-block">
-            <div class="container-fluid container-md">
-                <div class="top-navigation d-flex justify-content-between py-1 align-items-center position-relative ">
-                    <div class="nav-search d-flex align-items-center">
-                        <input type="text" name="" id="" placeholder="Search here..." class="">
-                        <button class="ms-2 pt-2"><i class="fi fi-rr-search"></i></button>
-                    </div>
-                    <div class="logo">
-                        <h1><span>M</span>ovies</h1>
-                    </div>
-                    <div class="sign-up d-flex justify-content-end ">
-                        <a href="" class="text-light me-2"></a>
-                        <a href="" class="text-light"><i class="fi fi-rr-shopping-cart"></i></a>
-                    </div>
-                </div>
-                <div class="bottom-navigation">
-                    <ul class="w-100 d-flex justify-content-center">
-                        <li><a href="#" class="text-white p-3 float-start   active">Home  Tuesday 6/11/2024</a></li>
-                        <li><a href="#" class="text-white p-3 float-start  "></a></li>
-                       
-                            <div class="sub-menu position-absolute bg-white p-4 shadow container ">
-                                <div class="row">
-                                    
-        <nav class="mobile-navigation d-block d-md-none position-relative ">
-            <div class="visible-mobile container-fluid px-3">
-                <div class="d-flex align-items-center justify-content-between py-2 ">
-                    <div class="mobile-logo">
-                        <h1><span>M</span>ovies</h1>
-                    </div>
-                    <button class="text-white mt-2 fs-2 menu-icon">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="hidden-mobile position-absolute w-100">
-                <div class="">
-                    <ul>
-                        <li class=""><a href="" class="p-3 d-block text-center">Home</a></li>
-                       
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    
+              <header>
+        <div class="container">
+            <span class="nav-toggle">☰</span>
+            <h1 class="logo">MovieFlix</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">movie year</a>
+                        <div class="dropdown-content">
+                            <a href="#">2024</a>
+                            <a href="#">2923</a>
+                            <a href="#">2022</a>
+                            <a href="#">2021</a>
+                        </div>
+                    </li>
+                   
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Genres</a>
+                        <div class="dropdown-content">
+                            <a href="#">Action</a>
+                            <a href="#">Comedy</a>
+                            <a href="#">Drama</a>
+                            <a href="#">Horror</a>
+                        </div>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="container-fluid container-md">
         <section class="home-banner-wrapper pb-3 pb-md-5">
